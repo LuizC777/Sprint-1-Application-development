@@ -13,7 +13,7 @@
 body{
     padding:0;
     margin:0;
-    background-color: #333;
+    background-color: #222;
 }
 ul,li,a{
     list-style-type: none; 
@@ -26,22 +26,45 @@ ul,li,a{
     display:flex;
     flex-direction:row;
 }
+
+#navMenu li{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#navMenu li a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 .menuItem{
-    padding: 8px;
+    padding: 4px;
+    font-size:13px;
     margin: 10px;
     border: 1px solid #555;
-    border-radius:10px;
+    border-radius:4px;
     background-color:#333
+}
+#profileIcon{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+}
+#profileArea{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+    height:40px;
 }
 
 header{
-    height:70px;
+    height:50px;
     width:100%;
-    background-color: #111;
+    background-color: #000;
     display:flex;
     flex-direction: row;
     align-items:center;
-    border-bottom:1px solid #555
 }
 
 li a{
