@@ -1,0 +1,50 @@
+.noto-sans-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    font-family: "Noto Sans"
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #333;
+}
+ul,li,a{
+    list-style-type: none; 
+    padding: 0;           
+    margin: 0;
+    text-decoration: none;           
+}
+
+#navMenu{
+    display:flex;
+    flex-direction:row;
+}
+.menuItem{
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #555;
+    border-radius:10px;
+    background-color:#333
+}
+
+header{
+    height:70px;
+    width:100%;
+    background-color: #111;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border-bottom:1px solid #555
+}
+
+li a{
+    color: #fff;
+    font-weight:500;
+}
